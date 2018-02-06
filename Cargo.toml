@@ -1,0 +1,26 @@
+[package]
+name = "dropbox-dir"
+version = "1.0.0"
+authors = ["Martin Chaine <martin@casimir.me>"]
+description = "Find your Dropbox directory in a jiffy"
+repository = "https://github.com/casimir/dropbox-dir"
+license = "MIT"
+keywords = ["dropbox"]
+
+[lib]
+name = "dropbox_dir"
+path = "src/lib.rs"
+
+[[bin]]
+name = "dropbox-dir"
+path = "src/bin.rs"
+
+[dependencies]
+atty = "0.2"
+clap = "2.29"
+quick-error = "1.2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+
+# vim: ft=ini
