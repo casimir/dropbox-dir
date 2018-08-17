@@ -4,6 +4,7 @@ version = "1.0.0"
 authors = ["Martin Chaine <martin@casimir.me>"]
 description = "Find your Dropbox directory in a jiffy"
 repository = "https://github.com/casimir/dropbox-dir"
+readme = "README.md"
 license = "MIT"
 keywords = ["dropbox"]
 
